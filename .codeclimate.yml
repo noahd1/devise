@@ -1,6 +1,7 @@
 ---
 engines:
-  golint:
+  rubocop:
     enabled: true
-  gofmt:
-    enabled: true
+ratings:
+  paths:
+    - **.*
